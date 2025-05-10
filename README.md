@@ -14,4 +14,9 @@ Além disso, foi falado sobre alguns serviços que podem aparecer como versão p
 # SLA
 Define o tempo de inatividade aceitável, que vão desde 1,68 hora por semana a 6 segundos por semana. Saber qual SLA usar é fundamental para manter o equilíbrio aceitável entre custos e disponibilidade do recurso utilizado.
 
-Essa disponibilidade é alcançada por meio de escolhas de estruturas, como ao criar máquinas virtuais escolhendo mais zonas e opções de disponibilidade e ao criar contas de armazenamento, que replicam os dados
+Essa disponibilidade é alcançada por meio de escolhas de estruturas, como ao criar máquinas virtuais escolhendo mais zonas e opções de disponibilidade e ao criar contas de armazenamento, que replicam os dados.
+
+## Criar máquina virtual e instância de banco de dados
+Ao criar uma máquina virtual, devemos especificar opções como discos (com imagens de algum SO), rede, gerenciamento e monitoramento.
+
+Criar uma instância de banco de dados funciona de forma muito semelhante. Selecionamos então um servidor (que funciona de forma simbólica) e a redundância do armazenamento de backup, que afeta diretamente o SLA do serviço.
