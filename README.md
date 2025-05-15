@@ -27,3 +27,9 @@ Na data de gravação aula, o Brasil possuía uma região principal, chamada de 
 
 # Criando Grupo de recursos
 Grupo de recursos é uma coleção de recursos que compartilha o mesmo ciclo de vida, permissões e políticas. Podem possuir bloqueios para que possamos proteger determinadas funções ou recursos
+
+# Configurando recursos e dimensionamentos em Máquinas virtuais na Azure
+## Criando Máquinas virtuais
+Foi ensinado como criar uma máquina virtual, com todas as configurações. Também foi explicado sobre conjuntos de dimensionamentos, que permitem que essas VMs escalem, tanto manualmente quanto automaticamente, com base em uma métrica pré-determinada.
+
+Ao criar as VMs, podemos também escolher qual tamanho (capacidade de processamento e memória) melhor se adequa às nossas necessidades. Além disso, precisamos escolher o disco de SO, nos certificando de marcar a opção para excluir com VM. Para evitar a existência de discos órfãos.
